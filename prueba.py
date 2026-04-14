@@ -4,15 +4,27 @@
 
 # # print("hola", nombre, "su edad en 5 años será", edad+5)
 
-# numeros_del_usuario=int(print("Ingrese un número: "))
-# resultados_suma=numeros_del_usuario+numeros_del_usuario
-# resultados_resta=numeros_del_usuario-numeros_del_usuario
-# print("Su número ingresado sumado por si mismo da", resultados_suma) 
-# print("y su i resultado restado por si mismo da", resultados_resta)
+# n1=int(print("Ingrese un número: "))
+# n2=int(print("Ingrese otro número: "))
+# resultados_suma=n1+n2
+# resultados_resta=n1-n2
+# print("El resultado de la suma es", resultados_suma) 
+# print("El resultdo de la resta es", resultados_resta)
 
+#calcular el iva para cada compra
+print(
+'''
+1.- pera 1200
+2.- manzana 1400
+3.- piña 2000
+''')
 
-
-
-
-
-print("gg")
+select=int(input("seleccione una fruta: "))
+if select==1:
+    print("El total a pagar", 1200*1.19)
+elif select==2:
+    print("El total a pagar", 1400*1.19)
+elif select==3:
+    print("El total a pagar", 2000*1.19)
+else:
+    print("número no valido")
