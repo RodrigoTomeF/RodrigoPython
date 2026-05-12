@@ -114,23 +114,45 @@
 #     else:
 #         print("Alumno reprobo")
 
-total_de_ingresos = 0
-while True:
-    try:
-        pasajes_a_vender = int(input("Ingrese la cantidad de pasajes a vender: "))
-        break
-    except:
-        print("Ingrese un valor númerico")
+
+
+
+
+
+# Deberás construir un programa que esta diseñado para ayudar en la venta
+# de pasajes. Inicia preguntándote cuántos pasajes deseas vender. Luego,
+# utiliza un proceso organizado (llamado bucle for) para pedirte el precio de
+# cada pasaje por separado. Si ingresas un valor que no es un número, te
+# indica que necesitas proporcionar un valor numérico válido. Al final, muestra
+# el monto total que se ha obtenido por la venta de todos los pasajes
+# • Solicita al usuario la cantidad de pasajes a vender.
+# • Se utiliza un bucle for para iterar sobre la cantidad de pasajes.
+# • Dentro del bucle, se solicita al usuario el precio de cada pasaje y se
+# acumula en la variable totalIngresos.
+# • Si el usuario ingresa un valor no numérico para el precio del pasaje,
+# el programa muestra un mensaje y sale del bucle usando break.
+# • Finalmente, se imprime el total de ingresos por la venta de pasajes
+
+
+
+
+# total_de_ingresos = 0
+# while True:
+#     try:
+#         pasajes_a_vender = int(input("Ingrese la cantidad de pasajes a vender: "))
+#         break
+#     except:
+#         print("Ingrese un valor númerico")
             
-for i in range(pasajes_a_vender):
-    print(f"¿Cuanto vale un boleto {i+1}: ?")
-    try:
-        precio_del_boleto=int(input(" "))
-        break
-    except:
-        print("Ingrese un valor númerico")
-total_de_ingresos = precio_del_boleto + pasajes_a_vender
-print(f"El total de dinero recaudado por las venta de los pasajes, es de {total_de_ingresos}")
+# for i in range(pasajes_a_vender):
+#     print(f"¿Cuanto vale un boleto {i+1}: ?")
+#     try:
+#         precio_del_boleto=int(input(" "))
+#         break
+#     except:
+#         print("Ingrese un valor númerico")
+# total_de_ingresos = precio_del_boleto + pasajes_a_vender
+# print(f"El total de dinero recaudado por las venta de los pasajes, es de {total_de_ingresos}")
     
 
 
