@@ -157,15 +157,108 @@
 
 
 
+# saldo=10000
+
+# '''
+# 1.- Consultar saldo 
+# 2.- Retirar dinero
+# 3.- Depositar dinero
+# 4.- Salir
+
+# '''
+# while True:
+#     try:
+        # Elección_del_usuario=int(input(""))
+#     except:
+#         print("Ingresa un valor númerico del listado")
+
+#     try:
+#         monto_a_sacar=int(input("Ingrese un monto a sacar"))
+#     except:
+#         print("Solo puede retirar un monto de 5000")
+#     break
+
+# if monto_a_sacar==5000: 
+#     saldo=monto_a_sacar-Elección_del_usuario
 
 
 
+# % 5000!=0 
+# # % multiplo
+# # 
+# saldo=100.000
+# Elección_del_usuario=0
+# while Elección_del_usuario!=4:
+#     print("1.- Consultar saldo ")
+#     print("2.- Retirar dinero ")
+#     print("3.- Depositar dinero ")
+#     print("4.- Salir ")
+
+#     Elección_del_usuario=int(input("Seleccione una opción: "))
+
+#     match Elección_del_usuario:
+
+#         case 1:
+#             print(F"Su saldo es de {saldo}")
+#         case 2:
+#             while True:
+#                 try:
+#                     monto_a_retirar=int(input("Coloque el monto a retirar de 5000: "))
+#                 except:
+#                     print("Ingrese solo un monto de 5000")
+#                     break
+                
+#             saldo = saldo-monto_a_retirar
+#             print(f"Su saldo es de {saldo}")
+#         case 3:
+#             while True:
+#                 try:
+#                     monto_a_depositar=int(input("Cuanto dinero quiere depositar? solo de 5000: "))
+#                 except:
+#                     print("Ingrese un monto de 5000")
+#                     break
+
+#             saldo=saldo + monto_a_depositar
+#             print(f"Su saldo es de {saldo}")
+#         case 4:
+#             print("salida")
+
+# saldo=100.000
+# while True:
+#     print("1.- Consultar saldo ")
+#     print("2.- Retirar dinero ")
+#     print("3.- Depositar dinero ")
+#     print("4.- Salir ")
+
+#     Elección_del_usuario=int(input("Seleccione una opción: "))
+
+#     match Elección_del_usuario:
+
+#         case 1:
+#             print(F"Su saldo es de {saldo}")
+#         case 2:
+#             try:
+#                 monto_a_retirar=int(input("Elija un monto: "))
+#                 if monto_a_retirar==5000:
+#                     saldo = saldo-monto_a_retirar
+#             except:
+#                 print("El monto debe ser maximo de 5000")
+
+                
+#             print(f"Su saldo es de {saldo}")
+#         case 3:
+#             while True:
+#                 try:
+#                     monto_a_depositar=int(input("Cuanto dinero quiere depositar? solo de 5000: "))
+#                     break
+#                 except:
+#                     print("Ingrese un monto de 5000")
+#                     saldo=saldo + monto_a_depositar
 
 
+#             print(f"Su saldo es de {saldo}")
+#         case 4:
+#             print("salida")
 
 
-
-
-
-
-
+# .lower()
