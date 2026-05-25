@@ -241,45 +241,71 @@ el:800, 7%, lima==> lata mediana especial con sticker sanitario
 
 
 
-peso_de_lata=int(input("Ingrese el peso de la lata: "))
-while peso_de_lata < 1:
-    print("Ingrese un número positivo")
-    peso_de_lata=int(input("Ingrese el peso de la lata otra vez: "))
-porcentaje_de_sodio=int(input("Ingrese el porcentaje de sodio: "))
-while porcentaje_de_sodio <= 1 | porcentaje_de_sodio >= 100:
-    print("Ingrese un número del 1 al 100")
-    porcentaje_de_sodio=int(input("Ingrese el porcentaje de sodio: "))
-print("1.-Internacionalmente")
-print("2.-Nacional")
-venta=input("")
+# peso_de_lata=int(input("Ingrese el peso de la lata: "))
+# while peso_de_lata < 1:
+#     print("Ingrese un número positivo")
+#     peso_de_lata=int(input("Ingrese el peso de la lata otra vez: "))
+# porcentaje_de_sodio=int(input("Ingrese el porcentaje de sodio: "))
+# while porcentaje_de_sodio <= 1 | porcentaje_de_sodio >= 100:
+#     print("Ingrese un número del 1 al 100")
+#     porcentaje_de_sodio=int(input("Ingrese el porcentaje de sodio: "))
+# print("1.-Internacionalmente")
+# print("2.-Nacional")
+# venta=input("")
 
-lata_normal_peso=500
-lata_mediana_peso=1500
-lata_grande_peso=9999
+# lata_normal_peso=500
+# lata_mediana_peso=1500
+# lata_grande_peso=9999
 
-if peso_de_lata <= lata_normal_peso:
-    tamaño_de_lata= "Lata normal"
-elif peso_de_lata <= lata_mediana_peso:
-    tamaño_de_lata= "Lata mediana"
-else:
-    tamaño_de_lata = "lata grande"
+# if peso_de_lata <= lata_normal_peso:
+#     tamaño_de_lata= "Lata normal"
+# elif peso_de_lata <= lata_mediana_peso:
+#     tamaño_de_lata= "Lata mediana"
+# else:
+#     tamaño_de_lata = "lata grande"
 
-lata_normal_sodio=5
-lata_especial_sodio=8
-lata_acorazada_sodio=100
+# lata_normal_sodio=5
+# lata_especial_sodio=8
+# lata_acorazada_sodio=100
 
-if porcentaje_de_sodio <= lata_normal_sodio:
-    lata_sodio = ""
-elif porcentaje_de_sodio <= lata_especial_sodio:
-    lata_sodio = "especial"
-else:
-    lata_sodio = "acorazada"
+# if porcentaje_de_sodio <= lata_normal_sodio:
+#     lata_sodio = ""
+# elif porcentaje_de_sodio <= lata_especial_sodio:
+#     lata_sodio = "especial"
+# else:
+#     lata_sodio = "acorazada"
 
-opción1 = "Internacionalmente con stikcer sanitario"
-opcion2 = "Nacional sin sticker sanitario"
-if venta == opción1:
-    modo_de_venta = opción1
-else:
-    modo_de_venta = opcion2
+# opción1 = "Internacionalmente con stikcer sanitario"
+# opcion2 = "Nacional sin sticker sanitario"
+# if venta == opción1:
+#     modo_de_venta = opción1
+# else:
+#     modo_de_venta = opcion2
 
-print(f"{tamaño_de_lata}, {lata_sodio}, {modo_de_venta}")
+# print(f"{tamaño_de_lata}, {lata_sodio}, {modo_de_venta}")
+
+
+
+
+
+while True:
+    print("\n=== MENÚ ===")
+    print("1. Saludar")
+    print("2. Decir edad")
+    print("3. Salir")
+
+    opcion = input("Elige una opción: ")
+
+    if opcion == "1":
+        print("Hola")
+
+    elif opcion == "2":
+        edad = input("¿Qué edad tienes?: ")
+        print("Tienes", edad, "años")
+
+    elif opcion == "3":
+        print("Saliendo del programa...")
+        break
+
+    else:
+        print("Opción no válida")
