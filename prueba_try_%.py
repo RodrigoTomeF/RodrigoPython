@@ -17,23 +17,61 @@
 
 
 
-# Precio_del_juego=0
+# Indie=0
+# estudios=0
+# edad=0
+# clasificaión_e=0
+# while True:
+#     try:
+#         cantidad_juegos = int(input("¿Cuántos juegos vas a registrar?: "))
+#         if cantidad_juegos > 0:
+#             break
+#         print("Por favor, ingresa un número mayor a 0")
+#     except ValueError:
+#         print("Debes ingresar un número entero")
 
-# Cantidad_de_juegos=int(input("Ingrese la cantidad de juegos: "))
+# while True:
+#     nombre_del_juego = input("Ingrese el nombre del juego: ").upper()
+#     if len(nombre_del_juego) < 5:
+#         print("Su nombre debe tener al menos 5 letras ")
+#     elif " " in nombre_del_juego:
+#         print("Su nombre no debe de tener espacios ")
+#     else:
+#         break
 
+# while True:
+#     try:
+#         Precio=int(input("Ingrese el precio: "))
+#         if Precio > 0:
+#             break
+#         print("Coloque un valor positivo")
+#     except ValueError:
+#         print("Debe colocar un número sobre 0")
 
-# Nombre_del_juego=input("Ingrese el nombre del juego: ")
+# if 20000 < Precio < 40000:
+#     Indie =+ 1
+# elif Precio >= 40000:
+#     estudios =+ 1
 
+# while True:
+#     try:
+#         edad=int(input("Ingrese la edad: "))
+#         if edad >= 0:
+#             break
+#         print("La edad debe ser un valor positivo")
+#     except ValueError:
+#         print("Debe colocar un número sobre 0")
 
-# Precio_del_juego=int(input("Ingresa el precio del juego: "))
+# if edad <= 12:
+#     clasificaión_e += 1 
+#     print("La clasificación es E")
+# elif 12 <= edad <= 17:
+#     print("La clasificación es para adolecente")
+# else:
+#     print("Su claificacion es para +18")
 
+# print(f"Hay {Indie} indies, y {estudios} estudios, son {clasificaión_e} son clasificaciones E ")
 
-# Juego_indie=0 or 20000 or 39999
-
-# if Precio_del_juego >= Juego_indie:
-    
-# elif Precio_del_juego <= 40000:
-#     print()
 
 
 # El programa debe tener un menú de opciones de donde se pueda
@@ -60,47 +98,17 @@
 # a.	Se utilizan bloques try y except para manejar posibles errores al ingresar datos, validar valores no numéricos y errores inesperados. 
 # b.	Se debe programar mensajes de error específicos para guiar al usuario sobre posibles problemas.
 
+deuda=100000
+op=0 
 
-Tarjeta_cupo=100.000
-
-monto_de_pago=int(input("Ingresa un monto en en la tarjeta: "))
-
-if monto_de_pago >= 0 and monto_de_pago <=100.000:
-    print(f"Usted ingreso {monto_de_pago}")
-    Tarjeta_cupo=Tarjeta_cupo
-if monto_de_pago >= 100000:
-    print("Usted se paso del número permitido")
-
-if monto_de_pago > Tarjeta_cupo:
-    print("Usted excedio el limite de la tarjeta")
- 
+print(Menu)
+print()
+print()
+print()
+print()
+print()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+while True:
+    try: 
+        opcion=int(input("")) 

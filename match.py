@@ -105,53 +105,53 @@
 #                 print("Selección invalida")
 
 
-def Tabla_de_multiplicar():
-   num=int(input("Ingresa un número: "))
-   for i in range (10):
-    print( num, "X", i+1, "=", num*(i+1))
+# def Tabla_de_multiplicar():
+#    num=int(input("Ingresa un número: "))
+#    for i in range (10):
+#     print( num, "X", i+1, "=", num*(i+1))
 
-def Compra_de_frutas():
-    ('''
-    1.- pera 1200
-    2.- manzana 1400
-    3.- piña 2000
-    ''')
+# def Compra_de_frutas():
+#     ('''
+#     1.- pera 1200
+#     2.- manzana 1400
+#     3.- piña 2000
+#     ''')
 
-    select=int(input("seleccione una fruta: "))
-    if select==1:
-        print("El total a pagar", 1200*1.19)
-    elif select==2:
-        print("El total a pagar", 1400*1.19)
-    elif select==3:
-        print("El total a pagar", 2000*1.19)
-    else:
-        print("número no valido")
+#     select=int(input("seleccione una fruta: "))
+#     if select==1:
+#         print("El total a pagar", 1200*1.19)
+#     elif select==2:
+#         print("El total a pagar", 1400*1.19)
+#     elif select==3:
+#         print("El total a pagar", 2000*1.19)
+#     else:
+#         print("número no valido")
 
 
-def Calcula_tu_edad_en_unos_5_años():
-    print("ingrese nombre")
-    nombre=input()
-    edad=int(print("ingrese su edad: ", ))
+# def Calcula_tu_edad_en_unos_5_años():
+#     print("ingrese nombre")
+#     nombre=input()
+#     edad=int(print("ingrese su edad: ", ))
 
-    print("hola", nombre, "su edad en 5 años será", edad+5)
+#     print("hola", nombre, "su edad en 5 años será", edad+5)
 
-def programas():
-    op=0
-    while op!=4:
-        print("1.- Tabla de multiplicar")
-        print("2.- Compra de frutas")
-        print("3.- Calcula tu edad en 5 años")
-        print("4.- Salir")
-        print("seleccione una opción")
-        op=int(input())
-        match op:
-            case 1:
-                Tabla_de_multiplicar()
-            case 2:
-                Compra_de_frutas()
-            case 3:
-                Calcula_tu_edad_en_unos_5_años()
-            case 4:
-                print("Saliendo")
-            case _:
-                print("Seleccion inválida")
+# def programas():
+#     op=0
+#     while op!=4:
+#         print("1.- Tabla de multiplicar")
+#         print("2.- Compra de frutas")
+#         print("3.- Calcula tu edad en 5 años")
+#         print("4.- Salir")
+#         print("seleccione una opción")
+#         op=int(input())
+#         match op:
+#             case 1:
+#                 Tabla_de_multiplicar()
+#             case 2:
+#                 Compra_de_frutas()
+#             case 3:
+#                 Calcula_tu_edad_en_unos_5_años()
+#             case 4:
+#                 print("Saliendo")
+#             case _:
+#                 print("Seleccion inválida")

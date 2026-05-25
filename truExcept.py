@@ -1,15 +1,15 @@
 
 #El try es para darle un aviso a una persona de poeque fallo
 
-while True:
-    try:
-        num=int(input("Ingrese un número: "))
-        break
-    except ValueError as er:
-        print("Error", er)
-        print("Solo debe ingresar números enteros")
-    else:
-        print("")
+# while True:
+#     try:
+#         num=int(input("Ingrese un número: "))
+#         break
+#     except ValueError as er:
+#         print("Error", er)
+#         print("Solo debe ingresar números enteros")
+#     else:
+#         print("")
 
 
 # op=0
