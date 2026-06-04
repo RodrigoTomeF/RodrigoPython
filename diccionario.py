@@ -16,3 +16,5 @@ alumno["Nacionalidad"]="Peruana"
 del alumno["edad"]
 print(alumno)
 
+
+
