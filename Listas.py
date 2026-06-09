@@ -35,56 +35,52 @@
 
 
 
+# pokemons=["ekans", "Gastly"]
 
+# def mostrar():
+#  c=1
+# for p in pokemons:
+#     print(c,".-", p)
+#     c+=1
 
+# def eliminar():
+#     mostrar()
+# borrar_pokemon=input("Ingrese el pokemon a borrar: ")
+# pokemons.remove(borrar_pokemon)
 
+# def actualizar():
+#     mostrar()
+# actualizar_pokemon=int(input("Ingrese el pakomen a actualizar: "))
+# pokemons[actualizar_pokemon-1]=input("Que pokemon va a agregar?: ")
+# print("Actualizaste el pokemon con exito")
 
-pokemons=["ekans", "Gastly"]
-def mostrar():
-    c=1
-for p in pokemons:
-    print(c,".-", p)
-    c+=1
-    
-def eliminar():
-    mostrar()
-borrar_pokemon=input("Ingrese el pokemon a borrar: ")
-pokemons.remove(borrar_pokemon)
+# def agregar():
+#     pokemon_nuevo=input("Ingrese un pokemon: ")
+#     pokemons.append(pokemon_nuevo)
 
-def actualizar():
-    mostrar()
-actualizar_pokemon=int(input("Ingrese el pakomen a actualizar: "))
-pokemons[actualizar_pokemon-1]=input("Que pokemon va a agregar?: ")
-print("Actualizaste el pokemon con exito")
+# def menu_pokemon():
+#     while True:
+#         try:
+#             print(".- Agregar Pokemon")
+#             print(".- Eliminar Pokemon")
+#             print(".- Actualizar Pokemon")
+#             print(".- Mostar Pokemon")
+#             print(".- salir")
+#             op=int(input("Seleccione una opción: "))
+#             match op:
+#                 case 1:
+#                     agregar()
+#                 case 2:
+#                     eliminar()
+#                 case 3:
+#                     actualizar()
+#                 case 4:
+#                     mostrar()
+#                 case 5:
+#                     print("Salir de programa")
+#                     break
 
-def agregar():
-    pokemon_nuevo=input("Ingrese un pokemon: ")
-    pokemons.append(pokemon_nuevo)
+#         except ValueError as e:
+#             print("Solo números enteros")
 
-def menu_pokemon():
-    while True:
-        try:
-            print(".- Agregar Pokemon")
-            print(".- Eliminar Pokemon")
-            print(".- Actualizar Pokemon")
-            print(".- Mostar Pokemon")
-            print(".- salir")
-            op=int(input("Seleccione una opción: "))
-            match op:
-                case 1:
-                    agregar()
-                case 2:
-                    eliminar()
-                case 3:
-                    actualizar()
-                case 4:
-                    mostrar()
-                case 5:
-                    print("Salir de programa")
-                    break
-
-        except ValueError as e:
-            print("Solo números enteros")
-
-print(menu_pokemon)
-
+# print(menu_pokemon)
