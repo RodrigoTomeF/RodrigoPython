@@ -1,45 +1,36 @@
-prodructos={
-    1:{"nombre":"Uva", "precio": 2000 },
-    2:{"nombre":"Palta", "precio": 4000 },
-    3:{"nombre":"Pera", "precio": 1500 }
-} 
+# '''         print("1.- Agregar Producto")
+#             print("2.- Eliminar Producto")
+#             print("3.- Actualizar Producto")
+#             print("4.- Mostrar Productos")
+#             print("5.- Comprar Productos")
+#             print("6.- Crear Boleta (calcula IVA) y Salir")
+#             '''
 
 
-'''
-            print("1.- Agregar Producto")
-            print("2.- Eliminar Producto")
-            print("3.- Actualizar Producto")
-            print("4.- Mostrar Productos")
-            print("5.- Comprar Productos")
-            print("6.- Crear Boleta (calcula IVA) y Salir")
-            op=int(input("Seleccione una opcion: "))'''
+# prodructos={
+#     1:{"nombre":"Uva", "precio": 2000 },
+#     2:{"nombre":"Palta", "precio": 4000 },
+#     3:{"nombre":"Pera", "precio": 1500 }
+# }
 
-iva=1.19
-op=0
-carrito=0
+# iva=1.19
+# op=0
+# carrito=0
 
-print("1.- Agregar producto al carro")
-print("2.- Eliminar producto del carro")
-print("3.- Actualizar la cantidad del producto")
-print("4.- Mostar productos")
-print("5.- comprae productos")
-print("6.- crear boleta")
-print("7.- Salir")
-op=int(input("Seleccione una opción: "))
-match op:
-    case 1:
-        Producto_a_agregar=input("Inserte el producto a agregar al carrito: ")
-    case 2:
-        print
-    case 3:
-        print
-    case 4:
-        print
-    case 5:
-        print
-    case 6:
-        print
-
+# print("1.- Agregar producto al carro")
+# print("2.- Eliminar producto del carro")
+# print("3.- Actualizar la cantidad del producto")
+# print("4.- Mostar productos")
+# print("5.- comprae productos")
+# print("6.- crear boleta")
+# print("7.- Salir")
+# op=int(input("Seleccione una opción: "))
+# match op:
+#     case 1:
+#         Producto_a_agregar=input("Ingresa la seleccion de preferencia: ")
+#         prodructos[list(prodructos.keys())[-1]+1]={}
+#     case 2:
+#         print("")
 
 
 
