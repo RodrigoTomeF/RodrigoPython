@@ -26,13 +26,22 @@ temperatura_del_paciente=0
 print("-"*40)
 print("gestor de pacientes")
 nombre_del_paciente=input("Ingrese nombre del paciente: ")
+while nombre_del_paciente == "" or len(nombre_del_paciente) <=8:
+    print("ERROR, el nombre no puede tener 0 caracteres, ni menos de 8")
+    nombre_del_paciente=input("Ingrese nombre del paciente: ")
+
 mostrar_prevision()
-prevision_del_paceinte=input("Ingrese la prevision de su uso: ")
-temperatura_del_paciente=int(input("Ingrese la temperatura del paciente"))
+prevision_del_paceinte=input("Ingrese la prevision de su uso: ").lower()
+while prevision_del_paceinte not in ["fonasa","isapre", "fodesa"]:
+    mostrar_prevision()
+    print("ERROR, debe elegir una de las opciones")
+    prevision_del_paceinte=input("Ingrese la prevision de su uso: ").lower()
+
+temperatura_del_paciente=float(input("Ingrese la temperatura del paciente: s"))
 if temperatura_del_paciente >= 39:
     grave = True
 else:
     grave = False
-pacientes[list(pacientes)[-1]+1]={"nombre": nombre_del_paciente, "prevision":prevision_del_paceinte, "temperatura":temperatura_del_paciente}
 
+pacientes.append({"nombre":nombre_del_paciente, "prevision":prevision_del_paceinte, "temperatura":temperatura_del_paciente, "grave":grave})
 
