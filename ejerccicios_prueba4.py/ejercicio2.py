@@ -76,7 +76,7 @@ def ingresarpaciente():
         print("ERROR. Debe agregar un nombre que tenga mas de 8 letras.")
         nombre=input("Ingrese nombre: ")
     mostrar_prevision()
-    prevision=int(input("Ingrese prevision: ")).lower()
+    prevision=input("Ingrese prevision: ").lower()
     while prevision not in ["fonasa", "isapre", "fodesa"]:
         print("Debe elegir una de las opciones disponibles")
         prevision=input("Ingrese prevision: ").lower()
@@ -123,7 +123,10 @@ while True:
             case 3:
                 print("")
             case 4:
-                print("")
+                atencion=25000
+                print("-"*30)
+                print("La cantidad de pacientes es de",len(pacientes),", y el cobro por cada paciente es de $",atencion)
+                print("La cantidad total de costo por cada atencion a pacientes es de $",len(pacientes)*atencion)
             case 5:
                 mostrarPacientes()
             case 9:
